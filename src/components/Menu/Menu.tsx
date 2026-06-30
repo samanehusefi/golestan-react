@@ -12,7 +12,7 @@ const Menu: React.FC = () => {
         {/* Logo */}
         <a href="/" className="shrink-0">
           <img
-            src= "${import.meta.env.BASE_URL}assets/logo-golestan-web-1.webp"
+            src={`${import.meta.env.BASE_URL}assets/logo-golestan-web-1.webp`}
             alt="Golestan"
             className="w-28 ml-5"
           />
@@ -52,7 +52,7 @@ const Menu: React.FC = () => {
         >
           <div className="flex flex-row items-center justify-between p-4 border-b border-gray-200">
             <img
-              src= "${import.meta.env.BASE_URL}assets/logo-golestan-web-1.webp"
+              src={`${import.meta.env.BASE_URL}assets/logo-golestan-web-1.webp`}
               alt="Golestan"
               className="w-28"
             />
