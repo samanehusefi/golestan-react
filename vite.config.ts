@@ -3,10 +3,10 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import path from "node:path";
 
-export default defineConfig(({}) => ({
+export default defineConfig(({ command }) => ({
   plugins: [react(), tailwindcss()],
-  // base: command === "serve" ? "/" : "/golestan-react/",
-  base: "/golestan-react/",
+  base: command === "serve" ? "/" : "/golestan-react/",
+  // base: "/golestan-react/",
 
   resolve: {
     alias: {

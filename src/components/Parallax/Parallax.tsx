@@ -2,7 +2,7 @@ import type React from "react";
 import SpaceCard from "../SpaceCard/SpaceCard";
 
 const Parallax: React.FC = () => {
-  const image = "/assets/recipe-baner-1.png";
+  const image = `${import.meta.env.BASE_URL}assets/recipe-baner-1.png`;
 
   return (
     <>

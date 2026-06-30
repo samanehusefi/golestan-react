@@ -21,7 +21,7 @@ const Slider: React.FC = () => {
     Heading: "قرعه‌کشی ویژه جام جهانی",
     descriptin:
       "با خرید محصولات چای و ناتس گلستان، کد روی بسته را به شماره 30007405 ارسال کنید و در قرعه‌کشی جام جهانی با جایزه پلی‌استیشن شرکت کنید.",
-    src: "/assets/slider.png",
+    src: `${import.meta.env.BASE_URL}assets/slider.png`,
     alt: "گلستان",
     url: "#",
   };
