@@ -9,7 +9,6 @@ import Responsibility from "../Responsibility/Responsibility";
 import ProductShowcase from "../ProductShowcase/ProductShowcase";
 import PredictionBanner from "../PredictionBanner/PredictionBanner";
 import CompanyOverview from "../CompanyOverview/CompanyOverview";
-import Reveal from "../../animations/Reveal";
 import CategoryNavigation from "../CategoryNavigation/CategoryNavigation";
 
 const App: React.FC = () => {

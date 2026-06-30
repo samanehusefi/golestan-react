@@ -4,19 +4,12 @@ import Divider from "../Divider/Divider";
 interface CompanyData {
   id: number;
   title: string;
-  descriptin: string;
+  description: string;
+  url: string;
   priority: number;
 }
 
 const CompanyOverview: React.FC = () => {
-  interface CompanyData {
-    id: number;
-    title: string;
-    description: string;
-    url: string;
-    priority: number;
-  }
-
   const company: CompanyData[] = [
     {
       id: 1,
