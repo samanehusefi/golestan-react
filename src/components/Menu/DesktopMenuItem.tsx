@@ -1,4 +1,4 @@
-import type { MenuItemType } from "./menuData";
+import type { MenuItemType } from "./MenuData";
 import { ChevronDown } from "./ChevronDown";
 import React from "react";
 

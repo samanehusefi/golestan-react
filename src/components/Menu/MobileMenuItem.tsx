@@ -1,5 +1,4 @@
-import { ChevronDown } from "./ChevronDown";
-import type { MenuItemType } from "./menuData";
+import type { MenuItemType } from "./MenuData";
 import React from "react";
 
 type Props = {
