@@ -48,20 +48,24 @@
   @apply w-full;
 }
 
-/* remove flex from li (important fix) */
 .menu li {
-  @apply w-full border-b py-3 border-b-white;
+  @apply w-full !py-2  border-b-gray-500 my-1  bg-gray-200 rounded-xl  text-[#494343];
   transition: all 0.3s;
 }
 
 .menu li:last-child {
   @apply border-0;
 }
-
-.menu li li {
-  @apply border-0 py-1;
+.menu li > a,
+.menu li > summary {
+  @apply py-1.5 px-4 text-sm min-h-0;
 }
-
+.menu li li {
+  @apply border-0;
+}
+.menu li li > a {
+  @apply py-1.5 px-4 text-sm;
+}
 .menu summary {
   list-style: none;
   @apply flex items-center w-full relative pr-6 cursor-pointer;

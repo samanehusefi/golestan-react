@@ -20,7 +20,7 @@ const Blog: React.FC = () => {
         "ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌ می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌ پیازها را خرد کرده‌ و روی‌ روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ شود…",
       priority: 1,
       url: "#",
-      src: "https://www.golestan.com/wp-content/uploads/2023/05/recipe-pic2.jpg",
+      src: "/assets/recipe-pic2.jpg",
       alt: "recipe-pic-2",
     },
     {
@@ -30,7 +30,7 @@ const Blog: React.FC = () => {
         "گوشت بوقلمون را در یک ماهیتابه بزرگ ریخته، آب روی آن بریزید تا روی آن را بپوشاند و به مدت نیم ساعت آن را بپزید. گوشت را از مایع آن بیرون آورده…",
       priority: 2,
       url: "#",
-      src: "https://www.golestan.com/wp-content/uploads/2023/05/recipe-pic3.jpg",
+      src: "/assets/recipe-pic3.jpg",
       alt: "recipe-pic3",
     },
     {
@@ -40,7 +40,7 @@ const Blog: React.FC = () => {
         "احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از فهرست",
       priority: 2,
       url: "#",
-      src: "https://www.golestan.com/wp-content/uploads/2023/06/recipe-pic-Chilakile-1401.jpg",
+      src: "/assets/recipe-pic-Chilakile-1401.jpg",
       alt: "recipe-pic4",
     },
   ];

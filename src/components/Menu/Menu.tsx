@@ -12,7 +12,7 @@ const Menu: React.FC = () => {
         {/* Logo */}
         <a href="/" className="shrink-0">
           <img
-            src="https://www.golestan.com/wp-content/uploads/2023/01/logo-golestan-web-1.webp"
+            src="/assets/logo-golestan-web-1.webp"
             alt="Golestan"
             className="w-28 ml-5"
           />
@@ -38,8 +38,6 @@ const Menu: React.FC = () => {
         >
           ☰
         </button>
-
-        {/* Overlay */}
         <div
           onClick={() => setMobileMenuOpen(false)}
           className={`fixed inset-0 bg-black/50 z-40 lg:hidden transition-opacity duration-300 ${
@@ -47,16 +45,14 @@ const Menu: React.FC = () => {
           }`}
         />
 
-        {/* Mobile Menu */}
         <div
-          className={`fixed top-0 right-0 h-screen w-72 bg-[#222] z-50 transform transition-transform duration-300 lg:hidden ${
+          className={`fixed top-0 right-0 h-screen w-80 bg-[#494343] z-50 transform transition-transform duration-300 lg:hidden ${
             mobileMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          {/* Header */}
-          <div className="flex flex-row items-center justify-between p-4 border-b border-gray-700">
+          <div className="flex flex-row items-center justify-between p-4 border-b border-gray-200">
             <img
-              src="https://www.golestan.com/wp-content/uploads/2023/01/logo-golestan-web-1.webp"
+              src="/assets/logo-golestan-web-1.webp"
               alt="Golestan"
               className="w-28"
             />
@@ -68,13 +64,13 @@ const Menu: React.FC = () => {
               ✕
             </button>
           </div>
-
-          {/* Menu Items */}
-          <ul className="menu p-4 text-gray-300">
-            {menuData.map((item) => (
-              <MobileMenuItem key={item.id} item={item} />
-            ))}
-          </ul>
+          <div className="max-h-[80vh] overflow-y-auto">
+            <ul className="menu p-3 text-gray-300 ">
+              {menuData.map((item) => (
+                <MobileMenuItem key={item.id} item={item} />
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </header>

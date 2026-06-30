@@ -20,8 +20,7 @@ const Footer: React.FC = () => {
     {
       id: 1,
       title: "چای گلستان",
-      image:
-        "https://www.golestan.com/wp-content/uploads/2023/01/footer-icon1.png",
+      image: "/assets/footer-icon1.png",
       imageAlt: "چای گلستان",
       links: [
         { id: 1, title: "چای ممتاز هندوستان", url: "#" },
@@ -34,8 +33,7 @@ const Footer: React.FC = () => {
     {
       id: 2,
       title: "تی بگ گلستان",
-      image:
-        "https://www.golestan.com/wp-content/uploads/2023/01/footer-icon4.png",
+      image: "/assets/footer-icon4.png",
       imageAlt: "تی بگ گلستان",
       links: [
         { id: 1, title: "تی بگ بلک لاین", url: "#" },
@@ -48,8 +46,7 @@ const Footer: React.FC = () => {
     {
       id: 3,
       title: "ادویه گلستان",
-      image:
-        "https://www.golestan.com/wp-content/uploads/2023/01/footer-icon3.png",
+      image: "/assets/footer-icon3.png",
       imageAlt: "ادویه گلستان",
       links: [
         { id: 1, title: "زعفران ممتاز خراسان", url: "#" },
@@ -62,8 +59,7 @@ const Footer: React.FC = () => {
     {
       id: 4,
       title: "حبوبات گلستان",
-      image:
-        "https://www.golestan.com/wp-content/uploads/2023/01/footer-icon2.png",
+      image: "/assets/footer-icon2.png",
       imageAlt: "حبوبات گلستان",
       links: [
         { id: 1, title: "لوبیا قرمز ممتاز", url: "#" },

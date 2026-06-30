@@ -22,7 +22,7 @@ const Slider: React.FC = () => {
     Heading: "قرعه‌کشی ویژه جام جهانی",
     descriptin:
       "با خرید محصولات چای و ناتس گلستان، کد روی بسته را به شماره 30007405 ارسال کنید و در قرعه‌کشی جام جهانی با جایزه پلی‌استیشن شرکت کنید.",
-    src: "https://www.golestan.com/wp-content/uploads/2024/07/%D9%82%D8%B1%D9%85%D8%B2-300x300.png",
+    src: "/assets/slider.png",
     alt: "گلستان",
     url: "#",
   };
