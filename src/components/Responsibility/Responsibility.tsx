@@ -30,7 +30,7 @@ const Responsibility: React.FC = () => {
     brand: "گلستان",
     descriptin2:
       "در فعالیت‌های‌ اجتماعی خود،‌ گسترده وسیعی از فعالیت‌های عام‌المنفعه را در دستوركار خود قرار داده است.",
-    src: "/assets/csr-pic1.jpg",
+    src:  `${import.meta.env.BASE_URL}assets/csr-pic1.jpg`,
     alt: "Mahdi Hospital",
     url: "#",
   };
