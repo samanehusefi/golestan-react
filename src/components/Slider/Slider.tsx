@@ -29,7 +29,7 @@ const Slider: React.FC = () => {
 
   return (
     <>
-      <div className="w-full min-h-125 bg-linear-to-l from-[#f2f2f2] via-[#dddddd] to-[#c8c8c8]">
+      <div className="w-full min-h-125 bg-linear-to-l from-[#f2f2f2] via-[#dddddd] to-[#c8c8c8] mt-20">
         <div className="w-full lg:max-w-5xl mx-auto px-5 py-10 flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-8">
           <div className="w-full lg:max-w-md text-center lg:text-right">
             <h2 className="text-red-500 text-2xl py-3">{slider.Heading} </h2>
