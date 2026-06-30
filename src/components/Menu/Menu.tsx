@@ -7,7 +7,7 @@ const Menu: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#272727] h-22 fixed w-full max-w-[1660px] mx-auto `z-999`">
+    <header className="bg-[#272727] h-22 fixed w-full max-w-[1660px] mx-auto z-[999]">
       <div className="max-w-7xl mx-auto h-full flex flex-row-reverse lg:flex-row items-center justify-between lg:justify-center px-4">
         {/* Logo */}
         <a href="/" className="shrink-0">
