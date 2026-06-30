@@ -16,15 +16,18 @@ export const DesktopMenuItem: React.FC<Props> = ({ item }) => {
   }
 
   return (
-    <li className="dropdown dropdown-hover px-4">
-      <label className="flex items-center gap-1 cursor-pointer hover:text-white">
+    <li className="relative group px-4 py-4">
+      <label className="flex items-center gap-1 cursor-pointer group-hover:text-white">
         {item.label}
         <ChevronDown />
       </label>
 
-      <ul className="dropdown-content menu bg-white text-gray-700 rounded-none w-48 p-2 shadow-lg mt-2">
+      <ul className="absolute right-0 top-full hidden group-hover:block bg-white text-gray-700 w-48 p-2 shadow-lg">
         {item.children.map((child) => (
-          <li key={child.label}>
+          <li
+            key={child.label}
+            className="px-3 py-2 border-b border-gray-200 last:border-b-0 hover:bg-gray-100"
+          >
             <a href={child.href ?? "#"}>{child.label}</a>
           </li>
         ))}
