@@ -13,7 +13,6 @@ interface SliderData {
   alt: string;
   url: string;
 }
-
 const Slider: React.FC = () => {
   const slider: SliderData = {
     id: 1,

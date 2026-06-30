@@ -95,5 +95,4 @@ const Social: React.FC = () => {
     </div>
   );
 };
-
 export default Social;
