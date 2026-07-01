@@ -43,7 +43,7 @@ const Menu: React.FC = () => {
         />
 
         <div
-          className={`fixed top-0 right-0 h-screen w-80 bg-[#494343] z-50 transform transition-transform duration-300 lg:hidden ${
+          className={`fixed top-0 right-0 h-screen w-70 bg-[#342b2b] z-50 transform transition-transform duration-300 lg:hidden ${
             mobileMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
@@ -57,7 +57,7 @@ const Menu: React.FC = () => {
               ✕
             </button>
           </div>
-          <div className="max-h-[80vh] overflow-y-auto">
+          <div className="max-h-[78vh] mb-4 overflow-y-auto">
             <ul className="menu p-3 text-gray-300 ">
               {menuData.map((item) => (
                 <MobileMenuItem key={item.id} item={item} />

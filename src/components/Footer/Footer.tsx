@@ -1,7 +1,7 @@
 import type React from "react";
-import Social from "../Social/Social";
+import Social from "./Social";
 import BackToTop from "../BackToTop/BackToTop";
-import FooterCopyright from "../FooterCopyright/FooterCopyright";
+import FooterCopyright from "./FooterCopyright";
 interface FooterLink {
   id: number;
   title: string;
