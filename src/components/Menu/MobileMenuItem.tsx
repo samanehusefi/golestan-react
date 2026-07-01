@@ -17,11 +17,18 @@ export const MobileMenuItem: React.FC<Props> = ({ item }) => {
   return (
     <li>
       <details>
-        <summary>{item.label}</summary>
+        <summary className="active:bg-transparent active:text-inherit focus:bg-transparent focus:text-inherit">
+          {item.label}
+        </summary>
         <ul>
           {item.children.map((child) => (
             <li key={child.label}>
-              <a href={child.href ?? "#"}>{child.label}</a>
+              <a
+                className="active:bg-transparent active:text-inherit focus:bg-transparent focus:text-inherit"
+                href={child.href ?? "#"}
+              >
+                {child.label}
+              </a>
             </li>
           ))}
         </ul>

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { menuData } from "./MenuData";
 import { DesktopMenuItem } from "./DesktopMenuItem";
 import { MobileMenuItem } from "./MobileMenuItem";
+import MenuSvg from "./MenuSvg";
+import Logo from "../Logo/Logo";
 
 const Menu: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,13 +13,8 @@ const Menu: React.FC = () => {
       <div className="max-w-7xl mx-auto h-full flex flex-row-reverse lg:flex-row items-center justify-between lg:justify-center px-4">
         {/* Logo */}
         <a href="/" className="shrink-0">
-          <img
-            src={`${import.meta.env.BASE_URL}assets/logo-golestan-web-1.webp`}
-            alt="Golestan"
-            className="w-28 ml-5"
-          />
+          <Logo />
         </a>
-
         {/* Desktop Menu */}
         <ul className="hidden lg:flex items-center text-gray-300 text-xs">
           {menuData.map((item, index) => (
@@ -36,7 +33,7 @@ const Menu: React.FC = () => {
           onClick={() => setMobileMenuOpen(true)}
           className="lg:hidden btn btn-ghost btn-circle text-white"
         >
-          ☰
+          <MenuSvg />
         </button>
         <div
           onClick={() => setMobileMenuOpen(false)}
@@ -51,11 +48,7 @@ const Menu: React.FC = () => {
           }`}
         >
           <div className="flex flex-row items-center justify-between p-4 border-b border-gray-200">
-            <img
-              src={`${import.meta.env.BASE_URL}assets/logo-golestan-web-1.webp`}
-              alt="Golestan"
-              className="w-28"
-            />
+            <Logo />
 
             <button
               onClick={() => setMobileMenuOpen(false)}
